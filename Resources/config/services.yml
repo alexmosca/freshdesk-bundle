@@ -3,5 +3,6 @@ parameters:
 
 services:
   freshdesk:
+      public: true
       class: '%freshdesk_sdk_class%'
       arguments: ['%freshdesk_api_key%', '%freshdesk_domain%']
